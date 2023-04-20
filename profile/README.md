@@ -128,6 +128,7 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 > 
 <div>
   <img src = "https://user-images.githubusercontent.com/86552492/232415166-6d26877b-d2e5-41ed-b996-b1bb0bd0c3a3.png"/>
+  <img src = "https://user-images.githubusercontent.com/122579951/233256488-39272d6b-c517-43ec-897b-2ce0e296a862.png" />
 </div>
 
 ### 🔍 회원 검색
