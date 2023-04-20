@@ -350,12 +350,10 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 해결 
 
 - nginx conf파일에 HTTP를 1.1로 설정해주기 위해 server블록에 다음을 추가해주어야 했다.
-<br/> `proxy_set_header Connection '';` 
-<br/> `proxy_http_version 1.1;`
-또한 연결 시간이 기본 1분으로 설정되기 때문에 연결 시간을 늘리고자 다음 설정도 추가해주었더니 해당 에러는 더 이상 뜨지 않았다.
+<br/> `proxy_set_header Connection '';` `proxy_http_version 1.1;`
+<br/> 또한 연결 시간이 기본 1분으로 설정되기 때문에 연결 시간을 늘리고자 다음 설정도 추가해주었더니 해당 에러는 더 이상 뜨지 않았다.
 <br/>
 `proxy_read_timeout 3600s`
-<br/>
 `proxy_send_timeout 3600s`
 
 </details>
