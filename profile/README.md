@@ -240,6 +240,8 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 
 <div>
   <img src="https://user-images.githubusercontent.com/51226340/232834573-221c4144-93a0-4c6c-a4e2-8320388a4a07.jpg">
+  <img src = "https://user-images.githubusercontent.com/122579951/233255906-0cf29388-f3df-47ee-85d4-ded35f562e5e.png">
+
 </div>
 
 ## 📋 ERD Diagram
