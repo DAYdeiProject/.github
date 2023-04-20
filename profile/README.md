@@ -201,20 +201,22 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
   </details>
 
 
+<details>
+  <summary>[FE] formData 서버로 전달 시 맞지 않는 형식 이슈</summary>
 
-- **[FE] formData 서버로 전달 시 맞지 않는 형식 이슈**
+문제
     
-    > 문제
-    > 
-    > - 프로필 수정시 정보를 서버에 보낼때 형식이 이미지는 multipart/form-data, 다른 정보는 application/json 형식으로 보내야 했다. 그래서 formData 안에 정보 넣고 header에 "Content-Type": "multipart/form-data" 로 지정하고 요청했지만 400에러가 떴다. 
+- 프로필 수정시 정보를 서버에 보낼때 형식이 이미지는 multipart/form-data, 다른 정보는 application/json 형식으로 보내야 했다. 그래서 formData 안에 정보 넣고 header에 "Content-Type": "multipart/form-data" 로 지정하고 요청했지만 400에러가 떴다. 
     
-    > 시도
-    > 
-    > - 이전에는 string 값을 formData로 보낼때 key, value 형식에 맞게만 작성하면 서버에 잘 전달되었다. 그래서 이번에도 그렇게 하고 있었지만 json 형식으로 따로 지정을 해줘야된다고 해서 JSON.stringify로 감싼 후 formData로 보내봤지만 또 400에러가 떴다.
+시도 
+
+- 이전에는 string 값을 formData로 보낼때 key, value 형식에 맞게만 작성하면 서버에 잘 전달되었다. 그래서 이번에도 그렇게 하고 있었지만 json 형식으로 따로 지정을 해줘야된다고 해서 JSON.stringify로 감싼 후 formData로 보내봤지만 또 400에러가 떴다.
     
-    > 해결
-    > 
-    > - 팀원분이 Blob을 이용하여 보내면 된다고 해서, blob 객체 생성 후 JSON.stringify로 서버로 요청하니깐 해결 되었다.
+해결 
+
+- 팀원분이 Blob을 이용하여 보내면 된다고 해서, blob 객체 생성 후 JSON.stringify로 서버로 요청하니깐 해결 되었다.
+  
+</details>
 
 - **[FE] 생일 입력 BOX 형식 이슈**
     
