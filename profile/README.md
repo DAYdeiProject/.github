@@ -33,6 +33,8 @@
 | 김주희 |   BE   | 백엔드 팀장 |    https://github.com/Jjuhui313     |
 | 최정환 |   BE   | 백엔드 팀원 | https://github.com/the1224 |
 | 한지윤 |   BE   | 백엔드 팀원 | https://github.com/trueyoon |
+| 정다정 |   FE   | 프론트엔드 팀원 | https://github.com/daaaj |
+| 김준형 |   FE   | 프론트엔드 팀원 | https://github.com/juninkorea95 |
 
 ## 기술스택 BE
 
