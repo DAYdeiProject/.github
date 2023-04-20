@@ -235,13 +235,16 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 <details>
   <summary>[FE] formData 서버로 전달 시 맞지 않는 형식 이슈</summary>
 
+<br/>
 문제
     
-- 프로필 수정시 정보를 서버에 보낼때 형식이 이미지는 multipart/form-data, 다른 정보는 application/json 형식으로 보내야 했다. 그래서 formData 안에 정보 넣고 header에 "Content-Type": "multipart/form-data" 로 지정하고 요청했지만 400에러가 떴다. 
+- 프로필 수정시 정보를 서버에 보낼때 형식이 이미지는 multipart/form-data, 다른 정보는 application/json 형식으로 보내야 했다. 
+  <br/>그래서 formData 안에 정보 넣고 header에 "Content-Type": "multipart/form-data" 로 지정하고 요청했지만 400에러가 떴다. 
     
 시도 
 
-- 이전에는 string 값을 formData로 보낼때 key, value 형식에 맞게만 작성하면 서버에 잘 전달되었다. 그래서 이번에도 그렇게 하고 있었지만 json 형식으로 따로 지정을 해줘야된다고 해서 JSON.stringify로 감싼 후 formData로 보내봤지만 또 400에러가 떴다.
+- 이전에는 string 값을 formData로 보낼때 key, value 형식에 맞게만 작성하면 서버에 잘 전달되었다. 그래서 이번에도 그렇게 하고 있었지만 
+  <br/>json 형식으로 따로 지정을 해줘야된다고 해서 JSON.stringify로 감싼 후 formData로 보내봤지만 또 400에러가 떴다.
     
 해결 
 
@@ -252,6 +255,7 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 <details>
   <summary>[FE] 생일 입력 BOX 형식 이슈 </summary>
 
+  <br/>
   문제
   
 - 본래 회원 가입 페이지에서 생일 정보는 사용자가 직접 태어난 달과 날짜를 네자리 수로 적어 Input box에 적어 제출하도록 구현했다. 
@@ -270,6 +274,7 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 <details>
   <summary>[FE] 버튼 연속 클릭 이슈 </summary>
 
+<br/>
 문제
 
 - 본래 회원 가입 페이지에서 생일 정보는 사용자가 직접 태어난 달과 날짜를 네자리 수로 적어 Input box에 적어 제출하도록 구현했다. 
@@ -289,18 +294,19 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 <details>
 <summary>[FE] 404 페이지 이슈 </summary>
 
-* 문제 
+<br/>
+문제 
 
 - 처음에 페이지 구성할때 userId에 따라서 캘린더가 바뀌는 형식으로 경로 설정을 하였다. ( /:id ) 잘못된 경로로 접근할때, 없는 아이디로 접근했을 등 보여줄 404 페이지를 만들었는데, 
-예를들어 /15643로 없는 id로 접근 했을 때는 콘솔 에러만 나고 404페이지로 이동하지 않는 에러가 발생했다. 
+예를 들어 /15643로 없는 id로 접근 했을 때는 콘솔 에러만 나고 404페이지로 이동하지 않는 에러가 발생했다. 
 
-* 시도
+시도
 
 - useEffect로 url이 바뀔때마다 useLocation으로 id를 가져온 후, 서버와 통신 후 없는 id일때 404 페이지로 이동시키는 로직을 작성했다. 
 하지만 서버와 통신하면서 loading중일때는 home 화면이 잠깐 보였다가 404 페이지로 이동되는 현상이 있었다. 
 깜빡거리는 것 처럼 보여서 home page를 user 정보가 있을때만 보여지게 작성해보았지만, 여전히 똑같은 이슈가 있었다.
 
-* 해결 
+해결 
 
 - 멘토님께 질문한 결과, 첫번째로 url에 userId가 보여지는게 좋지 않다해서, 이걸 먼저 수정해보고 다시 똑같은 이슈가 있는지 확인해보기로 하였다. 
 그래서 url에 id를 없앤 후, 페이지를 더 나누고 없는 id나 잘못된 경로로 접근해보니 바로 404페이지로 이동하였다. 
@@ -311,11 +317,10 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 
 <summary> [BE] SSL 인증서가 생성되지 않는 이슈</summary>
 
+<br/>  
 문제 
 
-- SSL 인증서를 생성하는 과정에서
-- the following errors were reported by the server:
-와 같은 에러가 거듭 발생하였다.
+- SSL 인증서를 생성하는 과정에서 `the following errors were reported by the server:` 와 같은 에러가 거듭 발생하였다.
 
 시도
 
@@ -331,57 +336,27 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 
 <summary>[BE] SSL+SSE HTTP 프로토콜 버전 이슈 </summary>
 
+<br/>  
 문제 
 
 - SSL 적용 후 클라이언트 console에 다음과 같은 에러가 찍혔다.
-net::ERR_INCOMPLETE_CHUNKED_ENCODING
+`net::ERR_INCOMPLETE_CHUNKED_ENCODING`
 
 시도
 
 - 알고 보니 nginx를 사용할 시 HTTP 프로토콜 버전이 자동으로 1.0으로 잡히고,
-SSE 연결을 유지해주어야 하는데 이는 1.0 버전에서는 불가능하기 때문에 해당 오류가 발생하는 것으로 확인되었다.
+<br/> SSE 연결을 유지해주어야 하는데 이는 1.0 버전에서는 불가능하기 때문에 해당 오류가 발생하는 것으로 확인되었다.
 
 해결 
 
-- nginx conf파일에
-HTTP를 1.1로 설정해주기 위해 server블록에 다음을 추가해주어야 했다.
+- nginx conf파일에 HTTP를 1.1로 설정해주기 위해 server블록에 다음을 추가해주어야 했다.
 `proxy_set_header Connection '';`
-    `proxy_http_version 1.1;`
+`proxy_http_version 1.1;`
 또한 연결 시간이 기본 1분으로 설정되기 때문에 연결 시간을 늘리고자 다음 설정도 추가해주었더니 해당 에러는 더 이상 뜨지 않았다.
- `proxy_read_timeout 3600s`
-    `proxy_send_timeout 3600s`
+`proxy_read_timeout 3600s`
+`proxy_send_timeout 3600s`
 
 </details>
-
-<!-- BE
-<br>
-
-- 1. SSL 인증서
-    - 문제 : 
-    SSL 인증서를 생성하는 과정에서 `- the following errors were reported by the server:` 에러 발생
-    - 시도 : 
-    nginx와 certbot 완전 삭제 후 다시 진행하였으나 같은 오류 발생
-    - 해결 : 
-    인스턴스 재생성 후 설정되어 있는 PortForwarding 모두 삭제 후 다시 진행하여 정상적으로 인증서 생성
-  
-  <br>
-- 2. SSL+SSE HTTP 프로토콜 버전 이슈
-    - 문제 : 
-    SSL 적용 후 클라이언트 console에 다음과 같은 에러 발생
-    **`net::ERR_INCOMPLETE_CHUNKED_ENCODING`**
-    - 시도 : 
-    검색 결과,
-    nginx 사용 시, HTTP 프로토콜 버전 1.0으로 자동 설정되며
-    1.0 버전에서는 SSE 연결 유지가 불가능하기 때문에
-    해당 오류가 발생하는 것으로 확인
-    - 해결 : 
-    nginx conf파일에
-    HTTP를 1.1로 설정해주기 위해 server블록에 다음을 추가해주어야 했다.
-    `proxy_set_header Connection '';`
-    `proxy_http_version 1.1;`
-    또한 연결 시간이 기본 1분으로 설정되기 때문에 연결 시간을 늘리고자 다음 설정도 추가해주었더니 해당 에러는 더 이상 뜨지 않았다.
-    `proxy_read_timeout 3600s`
-    `proxy_send_timeout 3600s` -->
 
 ## 🌐 Architecture
 
