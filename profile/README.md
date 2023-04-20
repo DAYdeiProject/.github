@@ -218,51 +218,15 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
   
 </details>
 
-- **[FE] 생일 입력 BOX 형식 이슈**
-    
-    > 문제
-    > 
-    > - 본래 회원 가입 페이지에서 생일 정보는 사용자가 직접 태어난 달과 날짜를 네자리 수로 적어 Input box에 적어 제출하도록 구현했다. 위와 같은 방식의 문제점은 생일의 형식에 벗어나는 숫자 (ex : 9999 / 0000)를 입력해도 회원가입이 허용된다는 점이었다.
-    
-    > 시도
-    > 
-    > - 첫 시도로는 기존의 Input box 형식을 유지하되, 입력값의 validation을 적용하려는 방향으로 잡았다. 하지만 이러한 방향은 입력값에 대한 조건을 다소 복잡한 방식으로 줘야했던 만큼 효율적이지 않았다.
-    
-    > 해결
-    > 
-    > - 값을 입력하여 전달하는 방식에는 input 뿐만 아니라 select이 있다는 것을 발견하고 적용했다.
-
-<InputInnerWrap>
-
-<select class="box" id="birth-month" onChange={handleMonthChange}>
-
-<option value="">월</option>
-
-{Array.from({ length: 12 }, (_, index) => {
-
-const monthValue = (index + 1).toString().padStart(2, "0");
-
-return <option value={monthValue}>{monthValue}</option>;
-
-})}
-
-</select>
-
-<select class="box" id="birth-day" onChange={handleDayChange}>
-
-<option value="">일</option>
-
-{Array.from({ length: 12 }, (_, index) => {
-
-const monthValue = (index + 1).toString().padStart(2, "0");
-
-return <option value={monthValue}>{monthValue}</option>;
-
-})}
-
-</select>
-
-</InputInnerWrap>
+<details>
+  <summary>[FE] 생일 입력 BOX 형식 이슈 </summary>
+문제
+- 본래 회원 가입 페이지에서 생일 정보는 사용자가 직접 태어난 달과 날짜를 네자리 수로 적어 Input box에 적어 제출하도록 구현했다. 위와 같은 방식의 문제점은 생일의 형식에 벗어나는 숫자 (ex : 9999 / 0000)를 입력해도 회원가입이 허용된다는 점이었다.
+시도
+- 첫 시도로는 기존의 Input box 형식을 유지하되, 입력값의 validation을 적용하려는 방향으로 잡았다. 하지만 이러한 방향은 입력값에 대한 조건을 다소 복잡한 방식으로 줘야했던 만큼 효율적이지 않았다. 
+해결
+- 값을 입력하여 전달하는 방식에는 input 뿐만 아니라 select이 있다는 것을 발견하고 적용했다. 
+</details>
 
 BE
 <br>
