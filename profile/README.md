@@ -201,7 +201,7 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
     
     > 문제
     > 
-    > - 프로필 수정시 정보를 서버에 보낼때 형식이 이미지는 multipart/form-data, 다른 정보는 application/json 형식으로 보내야 했다. 그래서 formData 안에 정보 넣고 header에 "Content-Type": "multipart/form-data" 로 지정하고 요청했지만 400에러가 떴다.
+    > - 프로필 수정시 정보를 서버에 보낼때 형식이 이미지는 multipart/form-data, 다른 정보는 application/json 형식으로 보내야 했다. 그래서 formData 안에 정보 넣고 header에 "Content-Type": "multipart/form-data" 로 지정하고 요청했지만 400에러가 떴다. 
     
     > 시도
     > 
