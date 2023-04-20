@@ -116,7 +116,7 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 ‘전체공개(스크랩가능)’을 선택할 경우, 나를 구독한 이용자의 캘린더에 해당 일정을 표시할 수 있습니다.
 > 
 
-<details>
+<details>  
 <summary>미리보기</summary>
   <div>
     <img src="https://user-images.githubusercontent.com/86552492/232416137-a6488b2c-a8be-4e5d-91f3-125e148478a5.png"/> 
