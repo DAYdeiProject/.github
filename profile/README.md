@@ -119,10 +119,8 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 > 
 <div>
   <img src="https://user-images.githubusercontent.com/51226340/232831456-9ea82050-0cb8-4d4b-91d0-3a2a986b0227.jpg">
-</div>
-<div>
-  <img src="https://user-images.githubusercontent.com/51226340/232831489-a9b7704f-0c4f-4a31-86cb-ce1746b99893.jpg", width="200">
-  <img src="https://user-images.githubusercontent.com/51226340/232831502-56aedd8b-f213-4304-ae3d-05d78340e12e.jpg", width="800">
+   <img src = "https://user-images.githubusercontent.com/86552492/232415513-fe69435c-1b41-4567-82fe-edc246ba92af.png"/>
+ <img src = "https://user-images.githubusercontent.com/86552492/232415618-d3563e0c-53f1-4544-bce3-2ff95ff5adc6.png"/>
 </div>
 
 ### 🔔 실시간 알림
