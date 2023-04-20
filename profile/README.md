@@ -33,7 +33,7 @@
 | 김주희 |   BE   | 백엔드 팀장 |    https://github.com/Jjuhui313     |
 | 최정환 |   BE   | 백엔드 팀원 | https://github.com/the1224 |
 | 한지윤 |   BE   | 백엔드 팀원 | https://github.com/trueyoon |
-| 정다정 |   FE   | 프론트엔드 팀원 | https://github.com/daaaj |
+| 정다정 |   FE   | 프론트엔드 팀장 | https://github.com/daaaj |
 | 김준형 |   FE   | 프론트엔드 팀원 | https://github.com/juninkorea95 |
 
 ## 기술스택 BE
@@ -63,7 +63,14 @@
   <img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white"/>
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"/> 
   <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/>
-
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
+  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white">
+  <img src="https://img.shields.io/badge/Axios-5a2f88?style=for-the-badge&logo=axios&logoColor=white">
+  <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+  <img src="https://img.shields.io/badge/react--router--dom-CA4245?style=for-the-badge&logo=react-router-dom&logoColor=white">
 </div>
 
 ## 프로젝트 기능
