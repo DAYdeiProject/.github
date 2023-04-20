@@ -107,7 +107,8 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 
 <div>
  <img src="https://user-images.githubusercontent.com/86552492/232416137-a6488b2c-a8be-4e5d-91f3-125e148478a5.png"/> 
-<img src="https://user-images.githubusercontent.com/86552492/232416274-68b1403d-8669-45dd-8dcf-691d2f852055.png"/> 
+ <img src="https://user-images.githubusercontent.com/86552492/232416274-68b1403d-8669-45dd-8dcf-691d2f852055.png"/> 
+ <img src="https://user-images.githubusercontent.com/122579951/233257295-56d72102-96d4-4085-8478-6184edaa8b3e.png"/> 
 </div>
 
 ### 🌟 구독하기
