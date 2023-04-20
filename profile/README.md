@@ -127,8 +127,7 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 > 친구 신청, 친구 승인, 구독, 일정 초대, 임박한 일정 등 각종 알림을 실시간으로 받아볼 수 있습니다.
 > 
 <div>
-  <img src="https://user-images.githubusercontent.com/51226340/232833217-e1ba90bc-995c-4de3-a313-27d630f08331.jpg", width="500">
-  <img src="https://user-images.githubusercontent.com/51226340/232833246-6f45bc45-9b5e-4918-849c-d31ce3e3789a.jpg", width="330">
+  <img src = "https://user-images.githubusercontent.com/86552492/232415166-6d26877b-d2e5-41ed-b996-b1bb0bd0c3a3.png"/>
 </div>
 
 ### 🔍 회원 검색
