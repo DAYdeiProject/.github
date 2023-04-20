@@ -118,8 +118,7 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 구독 계정 별로 표시/숨김 설정을 통해 원하는 구독 계정의 일정만 표시할 수 있습니다.
 > 
 <div>
-  <img src="https://user-images.githubusercontent.com/51226340/232831456-9ea82050-0cb8-4d4b-91d0-3a2a986b0227.jpg">
-   <img src = "https://user-images.githubusercontent.com/86552492/232415513-fe69435c-1b41-4567-82fe-edc246ba92af.png"/>
+ <img src="https://user-images.githubusercontent.com/51226340/232831456-9ea82050-0cb8-4d4b-91d0-3a2a986b0227.jpg">
  <img src = "https://user-images.githubusercontent.com/86552492/232415618-d3563e0c-53f1-4544-bce3-2ff95ff5adc6.png"/>
 </div>
 
