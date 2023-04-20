@@ -1,4 +1,4 @@
-# DAYdeiBackRepo
+# DAYdeiRepo
 ## DAYDEI 배포 링크
 🗓️[지금 바로 daydei사이트 방문하기](https://www.daydei.life/)
 
