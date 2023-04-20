@@ -80,10 +80,15 @@
 
 > 개인 캘린더 기능 구현을 위해 회원가입과 로그인을 구현하였습니다.
 일반 로그인 뿐 아니라 OAuth2를 이용하여 회원가입 없이 카카오 로그인도 가능합니다.!
-<p>
+
+<details>
+<summary>미리보기</summary>
+  <p>
   <img src="https://user-images.githubusercontent.com/86552492/232414598-6bd1935b-2a97-4d8e-9dd0-fe5cc8fedc0a.png" />
   <img src="https://user-images.githubusercontent.com/86552492/232414742-7e56f6a9-9442-4216-8492-d022b4419856.png"/> 
 </p>
+</details>
+
 
 
 ### ❤️ 친구 신청 / 카카오 친구 연동
@@ -92,10 +97,15 @@
 카카오 로그인 접속자의 경우, 친구 탭에서 카카오 친구 연동을 통해
 DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을 보낼 수 있습니다.
 이용자 프로필에서 나와 함께 아는 친구가 몇 명인지 확인 할 수 있습니다.
-<p>
+
+<details>
+<summary>미리보기</summary>
+  <p>
   <img src="https://user-images.githubusercontent.com/122579951/233258184-4945b9c7-89b7-4b9c-a46a-e8db542e652f.png">
   <img src="https://user-images.githubusercontent.com/122579951/233258195-50fba0b6-3721-4afa-963d-051276aa7574.png">
 </p>
+</details>
+
 
 ### ✏️ 일정 CRUD
 
@@ -106,11 +116,14 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 ‘전체공개(스크랩가능)’을 선택할 경우, 나를 구독한 이용자의 캘린더에 해당 일정을 표시할 수 있습니다.
 > 
 
-<div>
- <img src="https://user-images.githubusercontent.com/86552492/232416137-a6488b2c-a8be-4e5d-91f3-125e148478a5.png"/> 
- <img src="https://user-images.githubusercontent.com/86552492/232416274-68b1403d-8669-45dd-8dcf-691d2f852055.png"/> 
- <img src="https://user-images.githubusercontent.com/122579951/233257295-56d72102-96d4-4085-8478-6184edaa8b3e.png"/> 
-</div>
+<details>
+<summary>미리보기</summary>
+  <div>
+    <img src="https://user-images.githubusercontent.com/86552492/232416137-a6488b2c-a8be-4e5d-91f3-125e148478a5.png"/> 
+    <img src="https://user-images.githubusercontent.com/86552492/232416274-68b1403d-8669-45dd-8dcf-691d2f852055.png"/> 
+    <img src="https://user-images.githubusercontent.com/122579951/233257295-56d72102-96d4-4085-8478-6184edaa8b3e.png"/> 
+  </div>
+</details>
 
 ### 🌟 구독하기
 
@@ -119,19 +132,31 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 직접 작성한 일정이 아닌, 구독을 통해 내 캘린더에 표시된 일정은 모두 회색으로 표시됩니다.
 구독 계정 별로 표시/숨김 설정을 통해 원하는 구독 계정의 일정만 표시할 수 있습니다.
 > 
-<div>
- <img src="https://user-images.githubusercontent.com/51226340/232831456-9ea82050-0cb8-4d4b-91d0-3a2a986b0227.jpg">
- <img src = "https://user-images.githubusercontent.com/86552492/232415618-d3563e0c-53f1-4544-bce3-2ff95ff5adc6.png"/>
-</div>
+
+<details>
+<summary>미리보기</summary>
+  <div>
+    <img src="https://user-images.githubusercontent.com/51226340/232831456-9ea82050-0cb8-4d4b-91d0-3a2a986b0227.jpg">
+    <img src = "https://user-images.githubusercontent.com/86552492/232415618-d3563e0c-53f1-4544-bce3-2ff95ff5adc6.png"/>
+  </div>
+</details>
+
+
 
 ### 🔔 실시간 알림
 
 > 친구 신청, 친구 승인, 구독, 일정 초대, 임박한 일정 등 각종 알림을 실시간으로 받아볼 수 있습니다.
 > 
-<div>
-  <img src = "https://user-images.githubusercontent.com/86552492/232415166-6d26877b-d2e5-41ed-b996-b1bb0bd0c3a3.png"/>
-  <img src = "https://user-images.githubusercontent.com/122579951/233256488-39272d6b-c517-43ec-897b-2ce0e296a862.png" />
+
+<details>
+<summary>미리보기</summary>
+  <div>
+    <img src = "https://user-images.githubusercontent.com/86552492/232415166-6d26877b-d2e5-41ed-b996-b1bb0bd0c3a3.png"/>
+    <img src = "https://user-images.githubusercontent.com/122579951/233256488-39272d6b-c517-43ec-897b-2ce0e296a862.png" />
 </div>
+</details>
+
+
 
 ### 🔍 회원 검색
 
@@ -140,9 +165,13 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 프로필을 눌러 캘린더를 구경할 수 있습니다.
 > 
 
-<div>
-  <img src="https://user-images.githubusercontent.com/51226340/232833946-89346709-5d67-49f0-b073-2ce014cdeb49.jpg">
-</div>
+<details>
+<summary>미리보기</summary>
+  <div>
+    <img src="https://user-images.githubusercontent.com/51226340/232833946-89346709-5d67-49f0-b073-2ce014cdeb49.jpg">
+  </div>
+</details>
+
 
 ## 적용 기술
 
