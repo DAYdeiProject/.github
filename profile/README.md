@@ -34,7 +34,7 @@
 | 최정환 |   BE   | 백엔드 팀원 | https://github.com/the1224 |
 | 한지윤 |   BE   | 백엔드 팀원 | https://github.com/trueyoon |
 
-## 기술스택
+## 기술스택 BE
 
 <div> 
   <img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white">
