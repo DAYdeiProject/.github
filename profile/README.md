@@ -282,7 +282,7 @@ DAYDEI 서비스를 이용 중인 카카오 친구에게 일괄 친구 신청을
 </details>
 
 <details>
-<summary>SSL+SSE HTTP 프로토콜 버전 이슈 </summary>
+<summary>[BE] SSL+SSE HTTP 프로토콜 버전 이슈 </summary>
 
 * 문제 
 
