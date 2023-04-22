@@ -38,7 +38,7 @@
 
 
 ## 기술스택
-### FE
+## FE
 <div> 
   <img src="https://img.shields.io/badge/SSE-000000?style=for-the-badge&logo=&logoColor=white"/>
   <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
